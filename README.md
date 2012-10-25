@@ -18,5 +18,5 @@ For more details see [Authentication](https://github.com/Cloudview/api/blob/v1/d
 
 ## Success and Error Codes
 
-* [Success Codes](https://github.com/Cloudview/api/blobv1//docs/success-codes.md)
+* [Success Codes](https://github.com/Cloudview/api/blob/v1/docs/success-codes.md)
 * [Error Codes](https://github.com/Cloudview/api/blob/v1/docs/error-codes.md)
