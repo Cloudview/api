@@ -138,7 +138,7 @@ An array or URL strings for different formats of the Live View stream.
  - *404* if the camera does not exist.
  - *500* if the camera's live view is not connected.
  - *403* if the user is not the owner of the camera.
- - *405* if the camera is not live view capable
+ - *409* if the camera is not live view capable
 
 ### Cloudview Custom Error Codes
 
