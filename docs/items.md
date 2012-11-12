@@ -39,21 +39,24 @@ GET /item/get_list.[json|xml]
 * **qty** - how many results per "page" are to be returned
    - integer >=1 <= 20
    - default = 10
-* **camera_id** - if the camera ID is supplied, only return event items for the specified camera
 * **alert** - restrict the results to listing only alerted or non-alerted event items
     - TRUE = return *only* alert event items
     - FALSE = return *no* alerted event items
     - Not specified = return all items regardless if they are alerted or not
-* **flag** - similar to the alerts, restrict the results to listing only flagged or non-flagged event items
-    - TRUE = return *only* flagged event items
-    - FALSE = return *no* flagged event items
-    - Not specified = return all items regardless if they are flagged or not
+* **camera_id** - if the camera ID is supplied, only return event items for the specified camera
 * **datetime** - the date time boundary for the result listings. This works in conjunction with **datetime_reverse**
     - format: "yyyy-mm-dd hh:mm:ss"
     - if a **datetime** parameter is passed, it gets all items *older* than the specified **datetime**.
 * **datetime_reverse** - boolean 
     - If **datetime_reverse** is passed, it gets all items *newer* thank the specified **datetime**. 
-
+* **flag** - similar to the alerts, restrict the results to listing only flagged or non-flagged event items
+    - TRUE = return *only* flagged event items
+    - FALSE = return *no* flagged event items
+    - Not specified = return all items regardless if they are flagged or not
+* **new** - restrict the results to listing only viewed or unviewed (*new*) items
+    - TRUE = return *only* new event items
+    - FALSE = return *no* new event items
+    - Not specified = return all items regardless if they are viewed or not
 
 ### Results
 
